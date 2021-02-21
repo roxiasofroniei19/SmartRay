@@ -8,6 +8,8 @@
             <main>
                 <slot name="content"></slot>
             </main>
+
+            <Footer></Footer>
         </div>
     </div>
 </template>
@@ -20,6 +22,7 @@
     import JetNavLink from '@/Jetstream/NavLink'
     import JetResponsiveNavLink from '@/Jetstream/ResponsiveNavLink'
     import Navbar from '../Components/Navigation/Navbar.vue'
+    import Footer from '../Components/Navigation/Footer'
 
     export default {
         components: {
@@ -30,6 +33,7 @@
             JetNavLink,
             JetResponsiveNavLink,
             Navbar,
+            Footer
         },
 
         data() {
