@@ -9,9 +9,7 @@
             <li><a href="">About</a></li>
             <li><a href="">Pricings</a></li>
         </ul>
-        <div class="navbar-sidebar-button">
-            <i class="fas fa-bars"></i>
-        </div>
+        
     </div>
 </div>
 </template>
