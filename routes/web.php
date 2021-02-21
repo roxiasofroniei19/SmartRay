@@ -28,6 +28,14 @@ Route::get('/about', function () {
     return Inertia::render('Welcome');
 })->name('about');
 
+Route::get('/privacy', function () {
+    return Inertia::render('PrivacyPolicy');
+})->name('privacy');
+
+Route::get('/terms', function () {
+    return Inertia::render('TermsOfService');
+})->name('terms');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');

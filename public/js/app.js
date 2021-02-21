@@ -30480,7 +30480,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/AuthenticationCardLogo */ "./resources/js/Jetstream/AuthenticationCardLogo.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['policy'],
+  props: ["policy"],
   components: {
     JetAuthenticationCardLogo: _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__.default
   }
@@ -30946,7 +30946,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/AuthenticationCardLogo */ "./resources/js/Jetstream/AuthenticationCardLogo.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['terms'],
+  props: ["terms"],
   components: {
     JetAuthenticationCardLogo: _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__.default
   }
@@ -30967,12 +30967,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Layouts_GuestLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Layouts/GuestLayout */ "./resources/js/Layouts/GuestLayout.vue");
 /* harmony import */ var _Components_HeroSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/HeroSection */ "./resources/js/Components/HeroSection.vue");
+/* harmony import */ var _Components_HowItWorks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/HowItWorks */ "./resources/js/Components/HowItWorks.vue");
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     GuestLayout: _Layouts_GuestLayout__WEBPACK_IMPORTED_MODULE_0__.default,
-    HeroSection: _Components_HeroSection__WEBPACK_IMPORTED_MODULE_1__.default
+    HeroSection: _Components_HeroSection__WEBPACK_IMPORTED_MODULE_1__.default,
+    HowItWorks: _Components_HowItWorks__WEBPACK_IMPORTED_MODULE_2__.default
   }
 });
 
@@ -31058,6 +31061,23 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2, _hoisted_3]);
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c":
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+function render(_ctx, _cache) {
+  return " This will be the how it works thingy. ";
+}
 
 /***/ }),
 
@@ -34419,15 +34439,29 @@ var _hoisted_2 = {
 var _hoisted_3 = {
   "class": "min-h-screen flex flex-col items-center pt-6 sm:pt-0"
 };
+var _hoisted_4 = {
+  "class": "w-full sm:max-w-2xl mt-6 p-6 bg-white shadow-md overflow-hidden sm:rounded-lg prose"
+};
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h1>Privacy Policy for SmartRay</h1><p> At smartray.com, accessible from https://www.smartray.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by smartray.com and how we use it. </p><p> If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. </p><p> This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in smartray.com. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the <a href=\"https://www.privacypolicyonline.com/privacy-policy-generator/\">Free Privacy Policy Generator</a>. </p><h2>Consent</h2><p> By using our website, you hereby consent to our Privacy Policy and agree to its terms. </p><h2>Information we collect</h2><p> The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information. </p><p> If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide. </p><p> When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number. </p><h2>How we use your information</h2><p> We use the information we collect in various ways, including to: </p><ul><li>Provide, operate, and maintain our webste</li><li>Improve, personalize, and expand our webste</li><li>Understand and analyze how you use our webste</li><li>Develop new products, services, features, and functionality</li><li> Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes </li><li>Send you emails</li><li>Find and prevent fraud</li></ul><h2>Log Files</h2><p> smartray.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services&#39; analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users&#39; movement on the website, and gathering demographic information. </p><h2>Cookies and Web Beacons</h2><p> Like any other website, smartray.com uses &#39;cookies&#39;. These cookies are used to store information including visitors&#39; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&#39; experience by customizing our web page content based on visitors&#39; browser type and/or other information. </p><p> For more general information on cookies, please read <a href=\"https://www.cookieconsent.com/what-are-cookies/\">&quot;What Are Cookies&quot; from Cookie Consent</a>. </p><h2>Advertising Partners Privacy Policies</h2>", 19);
+
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("You may consult this list to find the Privacy Policy for each of the advertising partners of smartray.com.");
+
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p> Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on smartray.com, which are sent directly to users&#39; browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. </p><p> Note that smartray.com has no access to or control over these cookies that are used by third-party advertisers. </p><h2>Third Party Privacy Policies</h2><p> smartray.com&#39;s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p><p> You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers&#39; respective websites. </p><h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2><p> Under the CCPA, among other rights, California consumers have the right to: </p><p> Request that a business that collects a consumer&#39;s personal data disclose the categories and specific pieces of personal data that a business has collected about consumers. </p><p> Request that a business delete any personal data about the consumer that a business has collected. </p><p> Request that a business that sells a consumer&#39;s personal data, not sell the consumer&#39;s personal data. </p><p> If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us. </p><h2>GDPR Data Protection Rights</h2><p> We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following: </p><p> The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service. </p><p> The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete. </p><p> The right to erasure – You have the right to request that we erase your personal data, under certain conditions. </p><p> The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions. </p><p> The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions. </p><p> The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions. </p><p> If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us. </p><h2>Children&#39;s Information</h2><p> Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. </p><p> smartray.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records. </p>", 23);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_authentication_card_logo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-authentication-card-logo");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_authentication_card_logo)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-    innerHTML: $props.policy,
-    "class": "w-full sm:max-w-2xl mt-6 p-6 bg-white shadow-md overflow-hidden sm:rounded-lg prose"
-  }, null, 8
-  /* PROPS */
-  , ["innerHTML"])])])]);
+  var _component_P = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("P");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_authentication_card_logo)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_P, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_24];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_25])])])]);
 }
 
 /***/ }),
@@ -35504,15 +35538,13 @@ var _hoisted_2 = {
 var _hoisted_3 = {
   "class": "min-h-screen flex flex-col items-center pt-6 sm:pt-0"
 };
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full sm:max-w-2xl mt-6 p-6 bg-white shadow-md overflow-hidden sm:rounded-lg prose\"><h1>Website Terms and Conditions of Use</h1><h2>1. Terms</h2><p> By accessing this Website, accessible from https://www.smartray.com, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law. </p><h2>2. Use License</h2><p> Permission is granted to temporarily download one copy of the materials on SmartRay&#39;s Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not: </p><ul><li>modify or copy the materials;</li><li> use the materials for any commercial purpose or for any public display; </li><li> attempt to reverse engineer any software contained on SmartRay&#39;s Website; </li><li> remove any copyright or other proprietary notations from the materials; or </li><li> transferring the materials to another person or &quot;mirror&quot; the materials on any other server. </li></ul><p> This will let SmartRay to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href=\"https://www.termsofservicegenerator.net\">Terms Of Service Generator</a> and the <a href=\"https://www.generateprivacypolicy.com\">Privacy Policy Generator</a>. </p><h2>3. Disclaimer</h2><p> All the materials on SmartRay’s Website are provided &quot;as is&quot;. SmartRay makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, SmartRay does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website. </p><h2>4. Limitations</h2><p> SmartRay or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on SmartRay’s Website, even if SmartRay or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you. </p><h2>5. Revisions and Errata</h2><p> The materials appearing on SmartRay’s Website may include technical, typographical, or photographic errors. SmartRay will not promise that any of the materials in this Website are accurate, complete, or current. SmartRay may change the materials contained on its Website at any time without notice. SmartRay does not make any commitment to update the materials. </p><h2>6. Links</h2><p> SmartRay has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by SmartRay of the site. The use of any linked website is at the user’s own risk. </p><h2>7. Site Terms of Use Modifications</h2><p> SmartRay may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use. </p><h2>8. Your Privacy</h2><p>Please read our Privacy Policy.</p><h2>9. Governing Law</h2><p> Any claim related to SmartRay&#39;s Website shall be governed by the laws of ro without regards to its conflict of law provisions. </p></div>", 1);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_authentication_card_logo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-authentication-card-logo");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_authentication_card_logo)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-    innerHTML: $props.terms,
-    "class": "w-full sm:max-w-2xl mt-6 p-6 bg-white shadow-md overflow-hidden sm:rounded-lg prose"
-  }, null, 8
-  /* PROPS */
-  , ["innerHTML"])])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_authentication_card_logo)]), _hoisted_4])])]);
 }
 
 /***/ }),
@@ -35536,11 +35568,13 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   var _component_HeroSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("HeroSection");
 
+  var _component_HowItWorks = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("HowItWorks");
+
   var _component_guest_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("guest-layout");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_guest_layout, null, {
     content: _withId(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HeroSection)];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HeroSection), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HowItWorks)];
     }),
     _: 1
     /* STABLE */
@@ -54627,6 +54661,30 @@ _HeroSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__
 
 /***/ }),
 
+/***/ "./resources/js/Components/HowItWorks.vue":
+/*!************************************************!*\
+  !*** ./resources/js/Components/HowItWorks.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _HowItWorks_vue_vue_type_template_id_b3dce89c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HowItWorks.vue?vue&type=template&id=b3dce89c */ "./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c");
+
+const script = {}
+script.render = _HowItWorks_vue_vue_type_template_id_b3dce89c__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+script.__file = "resources/js/Components/HowItWorks.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+/***/ }),
+
 /***/ "./resources/js/Components/Navigation/Navbar.vue":
 /*!*******************************************************!*\
   !*** ./resources/js/Components/Navigation/Navbar.vue ***!
@@ -56642,6 +56700,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_HeroSection_vue_vue_type_template_id_5f211310_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_HeroSection_vue_vue_type_template_id_5f211310_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./HeroSection.vue?vue&type=template&id=5f211310&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/HeroSection.vue?vue&type=template&id=5f211310&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c":
+/*!******************************************************************************!*\
+  !*** ./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_HowItWorks_vue_vue_type_template_id_b3dce89c__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_HowItWorks_vue_vue_type_template_id_b3dce89c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./HowItWorks.vue?vue&type=template&id=b3dce89c */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/HowItWorks.vue?vue&type=template&id=b3dce89c");
 
 
 /***/ }),
