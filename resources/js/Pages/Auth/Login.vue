@@ -37,6 +37,7 @@
                     Log in
                 </jet-button>
             </div>
+            <div class="text-center text-gray-500 mt-4">Don't have an account? <a :href="route('register')" class="underline">Register</a></div>
         </form>
     </jet-authentication-card>
 </template>
