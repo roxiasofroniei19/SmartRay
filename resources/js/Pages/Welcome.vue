@@ -1,6 +1,6 @@
 <template>
   <guest-layout>
-    <template #content> </template>
+    <template #content> d</template>
   </guest-layout>
 </template>
 
