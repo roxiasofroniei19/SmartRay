@@ -5,9 +5,11 @@
     </div>
     <div class="navbar-menu">
         <ul>
-            <li class="active"><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Pricings</a></li>
+            <li class="active"><a :href="route('welcome')">Home</a></li>
+            <li><a :href="route('about')">About</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a :href="route('login')">Login</a></li>
+
         </ul>
         
     </div>

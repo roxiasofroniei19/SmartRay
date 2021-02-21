@@ -1,15 +1,20 @@
 <template>
   <guest-layout>
-    <template #content> d</template>
+    <template #content> 
+      <HeroSection></HeroSection>
+    </template>
   </guest-layout>
 </template>
 
 
 <script>
-import GuestLayout from "../Layouts/GuestLayout.vue";
+import GuestLayout from "../Layouts/GuestLayout";
+import HeroSection from "../Components/HeroSection";
+
 export default {
   components: {
     GuestLayout,
+    HeroSection
   },
 };
 </script>
