@@ -36,6 +36,14 @@ Route::get('/terms', function () {
     return Inertia::render('TermsOfService');
 })->name('terms');
 
+Route::get('/pricing', function () {
+    return Inertia::render('Pricing');
+})->name('pricing');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/portofolio', function () {
+    return Inertia::render('Portofolio');
+})->name('portofolio');
