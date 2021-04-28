@@ -1,19 +1,18 @@
 <template>
-    <div class="hero-section">
-  <div class="hero-section-content">
-    <span class="hero-section-content-title">Get to know your body</span> <hr>
-    <span class="hero-section-content-text"
+    <div class="about-section">
+  <div class="about-section-content">
+    <span class="about-section-content-title">About Us</span> <hr>
+    <span class="about-section-content-text"
       >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ratione
       magnam fugit tempora voluptas deserunt impedit. Voluptate excepturi id
       dignissimos aliquam dolor voluptatibus eaque eveniet dicta labore
       voluptatum? Ratione, quis.
       </span>
-    <div class="hero-section-content-cta"><button>Try it now</button></div>
   </div>
-  <div class="hero-section-illustration">
+  <div class="about-section-illustration">
     <img
-      src="../../../storage/app/public/img/hero-illustration.svg"
-      alt="Hero Illustration"
+      src="../../../storage/app/public/img/about-illustration.svg"
+      alt="AboutUs Section"
     />
   </div>
 </div>
@@ -28,7 +27,7 @@ export default {
 <style scoped lang="scss">
 @import '../../css/_variables.scss';
 
-.hero-section {
+.about-section {
     display: flex;
     padding: 2em;
     box-sizing: border-box;
@@ -37,7 +36,7 @@ export default {
     width: 100%;
     height: 90%;
 
-    .hero-section-illustration {
+    .about-section-illustration {
         height: 100%;
         flex: 4 0 0;
         display: flex;
@@ -49,7 +48,7 @@ export default {
         }
     }
 
-    .hero-section-content {
+    .about-section-content {
         display: block;
         margin: 0 auto;
         flex: 2 0 0;
@@ -61,7 +60,7 @@ export default {
             border: 1px solid rgba($color: #000000, $alpha: 0.2);
         }
 
-        .hero-section-content-title {
+        .about-section-content-title {
             font-family: RubikBold;
             font-size: 2em;
             display: inline-block;
@@ -69,12 +68,12 @@ export default {
             padding-bottom: 1rem;
         }
 
-        .hero-section-content-text {
+        .about-section-content-text {
             display: inline-block;
             padding-top: 1rem;
         }
 
-        .hero-section-content-cta {
+        .about-section-content-cta {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -101,12 +100,12 @@ export default {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-    .hero-section {
+    .about-section {
         padding: 1em;
         width: 100%;
         height: 90%;
     
-        .hero-section-illustration {
+        .about-section-illustration {
             position: absolute;
             height: 80%;
             opacity: 0.15;
@@ -116,7 +115,7 @@ export default {
             }
         }
     
-        .hero-section-content {
+        .about-section-content {
             display: block;
             margin: 0 auto;
             font-family: RubikRegular;
@@ -127,20 +126,20 @@ export default {
                 border: none;
             }
     
-            .hero-section-content-title {
+            .about-section-content-title {
                 font-size: 3em;
                 padding-bottom: 1.2rem;
                 text-align: center;
                 display: block;
             }
     
-            .hero-section-content-text {
+            .about-section-content-text {
                 text-align: center;
                 font-size: 2em;
                 padding-top: 1.2rem;
             }
 
-            .hero-section-content-cta {
+            .about-section-content-cta {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -160,12 +159,12 @@ export default {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-    .hero-section {
+    .about-section {
         padding: 1em;
         width: 100%;
         height: 90%;
     
-        .hero-section-illustration {
+        .about-section-illustration {
             position: absolute;
             height: 50%;
             opacity: 0.15;
@@ -175,7 +174,7 @@ export default {
             }
         }
     
-        .hero-section-content {
+        .about-section-content {
             display: block;
             margin: 0 auto;
             font-family: RubikRegular;
@@ -186,32 +185,23 @@ export default {
                 border: none;
             }
     
-            .hero-section-content-title {
+            .about-section-content-title {
                 font-size: 2.7em;
                 padding-bottom: 1.2rem;
                 text-align: center;
                 display: block;
             }
     
-            .hero-section-content-text {
+            .about-section-content-text {
                 text-align: center;
                 font-size: 1.5em;
                 padding-top: 1.2rem;
             }
 
-            .hero-section-content-cta {
+            .about-section-content-cta {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-    
-                button {
-                    font-size: 2em;
-                    
-                    &:hover {
-                        color: white;
-                        background-color: $accent-color;
-                    }
-                }
             }
         }
     }
@@ -222,12 +212,12 @@ export default {
 }
 
 @media (max-width: 575.98px) {
-    .hero-section {
+    .about-section {
         padding: 1em;
         width: 100%;
         height: 90%;
     
-        .hero-section-illustration {
+        .about-section-illustration {
             position: absolute;
             height: 50%;
             opacity: 0.15;
@@ -237,7 +227,7 @@ export default {
             }
         }
     
-        .hero-section-content {
+        .about-section-content {
             display: block;
             margin: 0 auto;
             font-family: RubikRegular;
@@ -248,13 +238,13 @@ export default {
                 border: none;
             }
     
-            .hero-section-content-title {
+            .about-section-content-title {
                 font-size: 2.7em;
                 padding-bottom: 1.2rem;
                 text-align: center;
             }
     
-            .hero-section-content-text {
+            .about-section-content-text {
                 text-align: center;
                 font-size: 1.3em;
                 padding-top: 1.2rem;

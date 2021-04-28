@@ -25,7 +25,7 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/about', function () {
-    return Inertia::render('Welcome');
+    return Inertia::render('About');
 })->name('about');
 
 Route::get('/privacy', function () {
