@@ -91,11 +91,11 @@ export default {
 
 <style scoped lang="scss">
 .pricings-container {
-  height: 90vh;
+  height: 80vh;
 }
 
 .pricings-green-background {
-  background-color: rgb(101, 191, 90);
+  background-color: #0FC6AA;
   height: 20%;
   width: 100%;
   display: flex;
