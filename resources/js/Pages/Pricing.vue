@@ -88,11 +88,19 @@ export default {
 
 <style scoped lang="scss">
 .pricings-container {
+<<<<<<< HEAD
   height: 110vh;
 }
 
 .pricings-green-background {
   background-color:#0FC6AA;
+=======
+  height: 80vh;
+}
+
+.pricings-green-background {
+  background-color: #0FC6AA;
+>>>>>>> 1c84a5e454ea15f2b530a024d11b5d257b26e569
   height: 20%;
   width: 100%;
   display: flex;
