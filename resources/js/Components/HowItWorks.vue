@@ -14,9 +14,7 @@
                 />
                 <span class="upload-image">Upload your image</span> <hr>
                 <span class="how-it-works-upload-content mt-2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam inventore sint 
-                    minima molestiae harum voluptatibus expedita, rerum doloribus dolorem, corporis 
-                    atque ipsa praesentium reiciendis fugiat ab eveniet aliquid. Deserunt, explicabo.
+                    Choose an X-ray that you want to analise. You can either upload it and save it to your portofolio or you can only analise it.
                 </span>
             </div>
 
@@ -27,9 +25,7 @@
                 />
                 <span class="analyse-image">Analyse your image</span> <hr>
                 <span class="how-it-works-analyse-content mt-2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, officia 
-                    numquam obcaecati, dolore harum in esse nesciunt itaque quas id, unde repellendus 
-                    quaerat. Amet, necessitatibus dolore a sint doloremque magni.
+                    To analise your X-ray, simply choose an existing one from your portofolio or upload a new one. Press the 'Send X-ray' button and wait for your results.
                     </span>
             </div>
 
@@ -41,9 +37,7 @@
 
                 <span class="receiving-results">Receiving results</span> <hr>
                 <span class="how-it-works-results-content mt-2 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi inventore totam 
-                    unde dolorem ea dolor aliquam provident ab eveniet ad voluptates veniam eius 
-                    adipisci, minima quia officia nam magni? Quidema sint doloremque magni.
+                    After a few seconds, you will recive your results. 
                     </span>
 
             </div>

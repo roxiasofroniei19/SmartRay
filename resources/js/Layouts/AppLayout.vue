@@ -16,14 +16,15 @@
                             </div>
 
                             <!-- Navigation Links -->
-                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                                    Dashboard
-                                </jet-nav-link>
-                            </div>
+
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <jet-nav-link :href="route('portofolio')" :active="route().current('portofolio')">
                                     Your portofolio
+                                </jet-nav-link>
+                            </div>
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                <jet-nav-link :href="route('xray')" :active="route().current('xray')">
+                                    Check an X-Ray
                                 </jet-nav-link>
                             </div>
                         </div>
@@ -146,7 +147,10 @@
                 <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="sm:hidden">
                     <div class="pt-2 pb-3 space-y-1">
                         <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                            Dashboard
+                            Your portofolio
+                        </jet-responsive-nav-link>
+                        <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            Check an X-Ray
                         </jet-responsive-nav-link>
                     </div>
 

@@ -4,6 +4,8 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+use App\Http\Controllers\XraysController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,9 +43,18 @@ Route::get('/pricing', function () {
 })->name('pricing');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia::render('Dashboard');
+    return Inertia::render('Portofolio');
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/portofolio', function () {
     return Inertia::render('Portofolio');
 })->name('portofolio');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/xray', function () {
+    return Inertia::render('Xray');
+})->name('xray');
+
+Route::middleware(['auth:sanctum', 'verified'])->put('/addImageToPortofolio', [XraysController::class, 'store'])->name('xray.store');
+Route::middleware(['auth:sanctum', 'verified'])->get('/getAllXrays', [XraysController::class, 'getAllXrays'])->name('getAllXrays');
+Route::middleware(['auth:sanctum', 'verified'])->get('/getImage/{id}', [XraysController::class, 'getImage'])->name('getImage');
+Route::middleware(['auth:sanctum', 'verified'])->post('/storeImageResult', [XraysController::class, 'storeImageResult'])->name('storeImageResult');

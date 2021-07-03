@@ -16,13 +16,12 @@
               <span class="plan-title">STARTER</span>
             </div>
             <div class="pricings-card-content">
-              <span class="plan-price">50$</span>
+              <span class="plan-price">FREE</span>
               <hr />
               <ul class="plan-benefits">
-                <li>Acces to online medical check-ups</li>
-                <li>Prescriptions at the click of a button</li>
-                <li>Instant messaging with medical staff</li>
-                <li>Order treatments straight to your door</li>
+                <li>Lorem ipsum dolor, sit amet consectetur. </li>
+                <li>Veritatis laboriosam natus, exercitationem.</li>
+                <li>Voluptatum vero impedit omnis illo harum.</li> 
               </ul>
             </div>
             <div class="pricings-card-footer">
@@ -34,15 +33,15 @@
               <span class="plan-title">MEMBER</span>
             </div>
             <div class="pricings-card-content">
-              <span class="plan-price">100$</span>
+              <span class="plan-price">50$</span>
               <hr />
               <ul class="plan-benefits">
-                <li>Acces to online medical check-ups</li>
-                <li>Prescriptions at the click of a button</li>
-                <li>Instant messaging with medical staff</li>
-                <li>Order treatments straight to your door</li>
-                <li>Check your health using AI</li>
-                <li>Get special offers in our shop</li>
+                <li>Lorem ipsum dolor, sit amet consectetur. </li>
+                <li>Veritatis laboriosam natus, exercitationem.</li>
+                <li>Voluptatum vero impedit omnis illo harum.</li>
+                <li>Voluptatibus sint enim repudiandae.</li>
+                <li>Sapiente, magni alias! Error iusto impedi.</li>
+                <li>Impedit sint necessitatibus omnis illo.</li>
               </ul>
             </div>
             <div class="pricings-card-footer">
@@ -54,17 +53,15 @@
               <span class="plan-title">VIP</span>
             </div>
             <div class="pricings-card-content">
-              <span class="plan-price">150$</span>
+              <span class="plan-price">100$</span>
               <hr />
               <ul class="plan-benefits">
-                <li>Acces to online medical check-ups</li>
-                <li>Prescriptions at the click of a button</li>
-                <li>Instant messaging with medical staff</li>
-                <li>Order treatments straight to your door</li>
-                <li>Check your health using AI</li>
-                <li>Get special offers in our shop</li>
-                <li>Personal medical staff</li>
-                <li>Priority support</li>
+                <li>Lorem ipsum dolor, sit amet consectetur. </li>
+                <li>Veritatis laboriosam natus, exercitationem.</li>
+                <li>Voluptatum vero impedit omnis illo harum.</li>
+                <li>Voluptatibus sint enim repudiandae.</li>
+                <li>Sapiente, magni alias! Error iusto impedi.</li>
+                <li>Impedit sint necessitatibus omnis illo.</li>
               </ul>
             </div>
             <div class="pricings-card-footer">
@@ -91,11 +88,11 @@ export default {
 
 <style scoped lang="scss">
 .pricings-container {
-  height: 90vh;
+  height: 110vh;
 }
 
 .pricings-green-background {
-  background-color: rgb(101, 191, 90);
+  background-color:#0FC6AA;
   height: 20%;
   width: 100%;
   display: flex;
@@ -216,7 +213,7 @@ export default {
   align-items: center;
 
   button {
-    background-color: rgb(101, 191, 90);
+    background-color: #0FC6AA;
     color: white;
     border: none;
     font-size: 1.3em;

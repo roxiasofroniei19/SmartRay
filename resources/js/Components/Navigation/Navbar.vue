@@ -7,7 +7,6 @@
         <ul>
             <li class="active"><a :href="route('welcome')">Home</a></li>
             <li><a :href="route('about')">About</a></li>
-            <li><a :href="route('pricing')">Pricing</a></li>
             <li><a :href="route('login')">Login</a></li>
 
         </ul>

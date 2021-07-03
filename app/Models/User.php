@@ -10,6 +10,8 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 
+use Xray;
+
 class User extends Authenticatable
 {
     use HasApiTokens;
@@ -58,4 +60,9 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function xray()
+    {
+        return $this->hasMany(Xray::class);
+    }
 }
